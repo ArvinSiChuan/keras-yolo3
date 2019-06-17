@@ -207,5 +207,5 @@ def detect_video(yolo, video_path, output_path=""):
             out.write(result)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
-    yolo.close_session()
+
 
